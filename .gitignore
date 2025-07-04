@@ -1,0 +1,9 @@
+# TODO モデルとデータセットをhuggingfaceにあげる
+# github lfsはproで2GB
+
+checkpoints
+dataset
+lora_weights_only
+merged_model
+sarashina2-vision-8b
+
