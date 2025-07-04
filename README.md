@@ -24,3 +24,26 @@ pip install bitsandbytes
 pip install peft
 ```
 
+使い方  
+sarashina2-vision
+```bash
+python raw_sarashina.py
+```
+
+フルファインチューニング
+```bash
+python full_finetuning_sarashina.py
+```
+qlora ファインチューニング
+```bash
+python qlora_finetuning.py
+```
+ファインチューニングした層を本体にマージ
+```bash
+python save_lora.py
+```
+
+finetuning済みsarashinaを使用
+```bash
+python finetuning_sarashina.py
+```
